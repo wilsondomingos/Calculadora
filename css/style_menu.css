@@ -1,0 +1,83 @@
+
+
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: 'Montserrat';
+}
+:root{
+  --header-heigth: 70px;
+}
+
+body{
+  background-image:url(../img/original-ebb351195491016afd722475ed5f9f93.jpg) ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header{
+  height: var(--header-heigth);
+  display: flex;
+  align-items: center;
+  border: 1px solid red;
+  justify-content: space-around;
+}
+
+.lg{
+ 
+}
+.nav-bar{
+  display: flex;
+  align-items: center;
+  
+}
+ul{
+  display: flex;
+  align-items: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li{
+  display: flex;
+  align-items: center;
+  align-items: center;
+  justify-content: space-around;
+}
+a{
+  margin: 10px;
+  text-decoration: none;
+}
+
+.container{
+  display: flex;
+ 
+  height: calc(100vh);
+
+}
+.esquerdo{
+  display: flex;
+  justify-content:space-between;
+  align-items: flex-end;
+  height: calc(100vh);
+  flex-wrap: wrap;
+}
+.direito{
+  display: flex;
+  justify-content:space-between;
+  align-items: flex-end;
+  height: calc(100vh);
+  flex-wrap: wrap;
+}
+
+section{
+  width: 47vw;
+  height: 25vh;
+  border: 1px solid #000;
+  margin: 10px;
+}
