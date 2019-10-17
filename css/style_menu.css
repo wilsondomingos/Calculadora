@@ -24,8 +24,8 @@ header{
   height: var(--header-heigth);
   display: flex;
   align-items: center;
-  border: 1px solid red;
   justify-content: space-around;
+  width: 100vw;
 }
 
 .lg{
@@ -48,15 +48,17 @@ li{
   align-items: center;
   align-items: center;
   justify-content: space-around;
+  width: 10vw;
 }
 a{
+  display: flex;
   margin: 10px;
   text-decoration: none;
 }
 
 .container{
   display: flex;
- 
+   
   height: calc(100vh - 70px);
 
 }
@@ -77,7 +79,21 @@ a{
 
 section{
   width: 45vw;
-  height: 20vh;
+  height: 17vh;
   border: 1px solid #000;
   margin: 10px;
+}
+
+
+@media(max-width:400px){
+  header{
+
+  }
+  a{
+    font-size: 10px;
+    
+  }
+  li{
+    margin: 10px;
+  }
 }
