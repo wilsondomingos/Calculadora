@@ -57,27 +57,27 @@ a{
 .container{
   display: flex;
  
-  height: calc(100vh);
+  height: calc(100vh - 70px);
 
 }
 .esquerdo{
   display: flex;
   justify-content:space-between;
   align-items: flex-end;
-  height: calc(100vh);
+  height: calc(50vh);
   flex-wrap: wrap;
 }
 .direito{
   display: flex;
   justify-content:space-between;
   align-items: flex-end;
-  height: calc(100vh);
+  height: calc(50vh);
   flex-wrap: wrap;
 }
 
 section{
-  width: 47vw;
-  height: 25vh;
+  width: 45vw;
+  height: 20vh;
   border: 1px solid #000;
   margin: 10px;
 }
